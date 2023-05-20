@@ -1,19 +1,27 @@
 # Django CRUD with Ajax and jQuery
 
-This repository provides a sample CRUD (Create, Read, Update, Delete) application built with Django, Ajax, and jQuery. It showcases how to implement asynchronous interactions with the server using Ajax and jQuery to perform CRUD operations without refreshing the page.
+This is a Django application that allows you to perform CRUD (Create, Read, Update, Delete) operations on student information using Ajax and jQuery. It provides an intuitive user interface for adding and updating student records without the need for page refresh.
 
-## Key Features
+## Features
 
-- **Create**: Add new tasks to the application by submitting a form asynchronously.
-- **Read**: Retrieve and display a list of tasks from the server without page reload.
-- **Update**: Edit and update the status of existing tasks with real-time updates.
-- **Delete**: Remove tasks from the application using Ajax requests.
+- **Add Student**: You can add a new student by providing their name, email, and password. Upon submission, the student record will be saved to the database.
+
+- **Update Student**: You can update an existing student's information by clicking the "Edit" button next to their record. The student's details will be loaded into a form, allowing you to make changes. After submitting the updated information, the record will be updated in the database.
+
+- **Delete Student**: You can delete a student's record by clicking the "Delete" button next to their record. 
+
+- **Show Student Information**: The application displays a table with the list of students and their details, including name, email, and password. The table is dynamically updated using Ajax and jQuery, allowing for seamless addition, modification, and deletion of records.
 
 ## Technologies Used
 
-- Django: A Python web framework for building robust web applications.
-- Ajax: Asynchronous JavaScript and XML, used to perform server-side requests without page refresh.
-- jQuery: A fast, small, and feature-rich JavaScript library for simplifying client-side scripting.
+- Python
+- Django
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Ajax
+- Bootstrap 5
 
 ## Installation and Usage
 
